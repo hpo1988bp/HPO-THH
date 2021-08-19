@@ -1,4 +1,4 @@
-#!/usr/bin/python
+ #!/usr/bin/python
 #coding=utf-8
 import httplib2
 import json
@@ -1138,7 +1138,7 @@ def GetFShareCred():
 			dialog = xbmcgui.Dialog()
 			yes = dialog.yesno(
 				'Đăng nhập không thành công!\n',
-				'[COLOR yellow]Bạn cần nhập tài khoản VIP FShare để xem! Liên hệ qua**Facebook: TRAN HUY HOANG HOẶC ZALO:0974 090 325 để đăng ký tài khoản VIP ngay bây giờ![/COLOR]',
+				'[COLOR yellow]Bạn cần nhập tài khoản VIP FShare để xem! Liên hệ qua**facebook.com/hpo.tranhuyhoang HOẶC ZALO:0974 090 325 để đăng ký tài khoản VIP ngay bây giờ![/COLOR]',
 				yeslabel='OK, Nhập Ngay',
 				nolabel='Bỏ Qua'
 			)
